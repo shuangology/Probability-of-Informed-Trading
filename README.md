@@ -32,7 +32,7 @@ The other is using the following joint likelihood function in MLE to overcome fl
 
 
 
-![屏幕快照 2020-08-19 下午12 12 05](https://user-images.githubusercontent.com/43864477/90628763-18b69c00-e216-11ea-9445-a9267074b1e5.png)
+![屏幕快照 2020-08-19 下午3 07 58](https://user-images.githubusercontent.com/43864477/90645470-de58f900-e22d-11ea-9e7e-c3363c5bdf42.png)
 
 
 
