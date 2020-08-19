@@ -19,3 +19,11 @@ The only available buy/sell data available in Wind is the buy/sell amount of dif
 |----|-----|-----|-----|
 |Trading Quantity exceed 1000000 CNY | Trading Quantity exceed 500000 CNY |Trading Quantity exceed 150000 CNY |Trading Quantity exceed 40000 CNY|
 
+Two PIN estimation methods are included in the code, the first is the Easley, Hvidkjaer, and O’Hara (EHO, 2010)  method as the following:
+
+![屏幕快照 2020-08-19 下午12 11 54](https://user-images.githubusercontent.com/43864477/90628750-13f1e800-e216-11ea-9d97-03cdfce31046.png)
+
+The other is using the following joint likelihood function in MLE to overcome floating-point exception
+
+![屏幕快照 2020-08-19 下午12 12 05](https://user-images.githubusercontent.com/43864477/90628763-18b69c00-e216-11ea-9445-a9267074b1e5.png)
+
