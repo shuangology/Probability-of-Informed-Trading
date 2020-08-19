@@ -20,7 +20,16 @@ The only available buy/sell data available in Wind is the buy/sell amount of dif
 |Trading Quantity exceed 1000000 CNY | Trading Quantity exceed 500000 CNY |Trading Quantity exceed 150000 CNY |Trading Quantity exceed 40000 CNY|
 
 
-Two PIN estimation methods are included in the code, the first is the Easley, Hvidkjaer, and O’Hara (EHO, 2010)  method as the following:
+PIN measures the fraction of trades in a day taht arise from informed traders, is defined as 
+
+$PIN = \frac {\alpha \mu}{\alpha \mu +\epsilon_B+ \epsilon_S}$
+
+where $\alpha$ denotes the probability taht an information event occurs. The information would be bad at the probability of $\delta$ and be good at the probability of $1-\delta$
+
+informed traders who know the new information submit orders at the daily arrival rate $\mu$. uniformed traders submit buy orders at rate $\epsilon_B$, sell orders at rate $\epsilon_S$
+
+
+Two PIN parameter estimation methods are included in the code, the first is the Easley, Hvidkjaer, and O’Hara (EHO, 2010)  method as the following:
 
 
 
