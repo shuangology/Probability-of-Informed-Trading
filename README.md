@@ -19,11 +19,27 @@ The only available buy/sell data available in Wind is the buy/sell amount of dif
 |----|-----|-----|-----|
 |Trading Quantity exceed 1000000 CNY | Trading Quantity exceed 500000 CNY |Trading Quantity exceed 150000 CNY |Trading Quantity exceed 40000 CNY|
 
+
 Two PIN estimation methods are included in the code, the first is the Easley, Hvidkjaer, and O’Hara (EHO, 2010)  method as the following:
 
-![屏幕快照 2020-08-19 下午12 11 54](https://user-images.githubusercontent.com/43864477/90628750-13f1e800-e216-11ea-9d97-03cdfce31046.png)
 
-The other is using the following joint likelihood function in MLE to overcome floating-point exception
+
+![屏幕快照 2020-08-19 下午12 29 35](https://user-images.githubusercontent.com/43864477/90629661-aba40600-e217-11ea-8830-135333a771dd.png)
+
+
+
+The other is using the following joint likelihood function in MLE to overcome floating-point exception, from Lin and Ke (LK, 2011) 
+
+
 
 ![屏幕快照 2020-08-19 下午12 12 05](https://user-images.githubusercontent.com/43864477/90628763-18b69c00-e216-11ea-9445-a9267074b1e5.png)
 
+
+
+Reference: 
+
+Easley, D., Hvidkjaer, S., O’Hara, M., 2010. Factoring information into returns. Journal of Financial and Quantitative Analysis 45, 293–309.
+
+Yan Y, Zhang S. An improved estimation method and empirical properties of the probability of informed trading[J]. Journal of Banking &amp; Finance, 2012, 36(2): 454-467.
+
+Lin, H.W., Ke, W.C., 2011. A computing bias in estimating the probability of informed trading. Journal of Financial Markets 14, 625–640.
